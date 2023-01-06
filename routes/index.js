@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
-router.get('/Army', (req, res) => {
+router.get('/home', (req, res) => {
   res.status(200).json({
     massage: 'Hello world moine',
   });
